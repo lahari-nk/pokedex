@@ -42,11 +42,11 @@ Browse results in the grid layout
 Click any Pokémon to see complete information
 
 🛠️ Technical Details
+
 Built With:
 Streamlit - Web application framework
 Pandas - Data manipulation and analysis
 Requests - HTTP library (for future enhancements)
-
 Key Functions:
 load_pokemon_data() - Loads and caches CSV data
 find_similar_names() - Implements substring matching for name search
@@ -61,12 +61,12 @@ pokedex/
 └── requirements.txt   # Python dependencies (optional)
 
 🎯 Future Enhancements
- Pokémon images integration
- Advanced filtering options (generation, stats range)
- Comparison tool between multiple Pokémon
- Export functionality for filtered results
- Dark/light theme toggle
- Pokémon evolution chain display
+Pokémon images integration
+Advanced filtering options (generation, stats range)
+Comparison tool between multiple Pokémon
+Export functionality for filtered results
+Dark/light theme toggle
+Pokémon evolution chain display
 
 🙏 Acknowledgments
 Pokémon data structure inspired by the classic Pokédex format

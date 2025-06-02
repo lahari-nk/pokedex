@@ -1,0 +1,36 @@
+.pokemon-card
+{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);  /* Gradient background */
+    padding: 20px;              /* Inner spacing */
+    border-radius: 15px;        /* Rounded corners */
+    color: white;               /* White text */
+    margin: 10px 0;            /* Spacing above and below */
+}
+    
+    /* Container for stat bars */
+.stat-bar
+{
+    background-color: #f0f0f0;  /* Light gray background */
+    border-radius: 10px;        /* Rounded corners */
+    height: 20px;              /* Fixed height */
+    margin: 5px 0;             /* Spacing above and below */
+}
+
+.stat-fill
+{
+    background: linear-gradient(90deg, #4CAF50, #45a049);  /* Green gradient */
+    height: 100%;              /* Fill full height of container */
+    border-radius: 10px;        /* Rounded corners */
+    transition: width 0.3s ease; /* Smooth animation when width changes */
+}
+    
+    /* Style for Pokemon type badges */
+.type-badge
+{
+    display: inline-block;      /* Display as inline element */
+    padding: 5px 12px;         /* Inner spacing */
+    margin: 3px;               /* Outer spacing */
+    border-radius: 20px;        /* Very rounded corners for pill shape */
+    font-weight: bold;          /* Bold text */
+    font-size: 12px;           /* Small text size */
+}

@@ -32,7 +32,7 @@ def display_pokemon_stats(pokemon_row):
     </div>
     """, unsafe_allow_html=True)
     
-    col1, col2 = st.columns([1, 3])  # First column is 1/4 width, second is 3/4 width
+    col1, col2 = st.columns([1, 3])
     with col1:
         st.subheader("Types:")
     with col2:
